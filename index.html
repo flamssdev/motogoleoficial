@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moto Gole</title>
+    <link rel="stylesheet/less" type="text/css" href="styleGlobal.less" />
+    <link rel="stylesheet/less" type="text/css" href="styleNav.less" />
+    <link rel="stylesheet/less" type="text/css" href="styleHome.less" />
+    <link rel="stylesheet/less" type="text/css" href="styleMassacration.less" />
+    <link rel="stylesheet/less" type="text/css" href="styleFesmumg.less" />
+    <link rel="stylesheet/less" type="text/css" href="styleBandas.less" />
+    <link rel="stylesheet/less" type="text/css" href="styleJurados.less" />
+    <link rel="stylesheet/less" type="text/css" href="styleCronograma.less" />
+    <link rel="stylesheet/less" type="text/css" href="styleIngressos.less" />
+    <link rel="stylesheet/less" type="text/css" href="styleContato.less" />
+    <link rel="stylesheet/less" type="text/css" href="styleFooter.less" />
+    <link rel="stylesheet/less" type="text/css" href="styleBandasParticipantes.less" />
+    <link rel="stylesheet/less" type="text/css" href="styleAtracoes.less" />
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbCj92ez72UjtoY35BcEa644h0TungVBI"></script>
+    <link rel="icon" type="imagem/png" href="/images/logoHome.png">
+</head>
+<body>
+    
+    <header>
+        <div class="container--desktop">
+        <img src="images/LogoNav.png" alt="Logo Moto Gole 16 Anos">
+        <nav>
+            <ul>
+                <li>
+                    <a id="home--desktop" href="#home">Home</a>
+                    <a id="bandas--desktop" href="#bandas">Bandas</a>
+                    <a id="cronograma--desktop" href="#cronograma" >Cronograma</a>
+                    <a id="ingressos--desktop" href="#ingressos">Ingressos</a>
+                    <a id="contato--desktop" href="#contato">Contato</a>
+                </li>
+            </ul>
+        </nav>
+        </div> <!--container--desktop-->
+
+        <div class="container--mobile">
+            <nav>
+                <a href="#home"><ion-icon id="home--mobile"  name="home-outline" class="active"></ion-icon></a> <!--Home-->
+                <a href="#bandas"><ion-icon id="bandas--mobile" name="musical-notes-outline" ></ion-icon></a> <!--Bandas-->
+                <a href="#cronograma"><ion-icon id="cronograma--mobile" name="reader-outline" ></ion-icon></a> <!--Cronograma-->
+                <a href="#ingressos"><ion-icon id="ingressos--mobile" name="ticket-outline" ></ion-icon></a> <!--Ingressos-->
+                <a href="#contato"><ion-icon id="contato--mobile" name="mail-outline" ></ion-icon></a> <!--Contato-->
+            </nav>
+            </div> <!--container--mobile-->
+    </header>
+
+    <main>
+        <section id="home" class="home">
+            <div class="container">
+                <h1>MOTO GOLE - 16º ANIVERSÁRIO</h1>
+                <h3>DIA 06, 07 E 08 DE JANEIRO</h3>
+                <div class="countdown-container">
+                    <div class="countdown-el dias-c">
+                        <p class="text" id="dias">0</p>
+                        <span>DIAS</span>
+                    </div>
+                    <div class="countdown-el hora-c">
+                        <p class="text" id="horas">0</p>
+                        <span>HORAS</span>
+                    </div>
+                    <div class="countdown-el minuto-c">
+                        <p class="text" id="minutos">0</p>
+                        <span>MINUTOS</span>
+                    </div>
+                    <div class="countdown-el segundo-c">
+                        <p class="text" id="segundos">0</p>
+                        <span>SEGUNDOS</span>
+                    </div>
+                </div>
+                <div class="description--home">
+                    <p>
+                        Em <span>2023</span> Moto Gole estará trazendo para PIRAQUARA mais um grande 
+                        evento, a comemoração do seu aniversário, foram 15 anos trazendo grandes 
+                        bandas para a região dentre elas, <span>DELOREAN, MOTOROCKER e VELHAS
+                         VIRGENS.</span>
+                    </p>
+                    <img src="images/logoHome.png" alt="">
+                </div>
+
+                <div class="proibido">
+                    <p><span>PROIBIDO</span> A ENTRADA DE BEBIDAS NO EVENTO!!</p>
+                </div>
+
+                <div class="acao-social">
+                    <span>AÇÃO SOCIAL</span>
+                    <p>Doe 1KG de alimento não perecível e ganhe um cupom para concorrer a PRÊMIOS no evento.</p>
+                </div>
+
+            </div> <!--container-->    
+
+        </section>
+
+        <section id="bandas" class="massacration">
+            <div class="container">
+                <h2>SHOW DA BANDA MASSACRATION</h2>
+                <div class="description--massacration">
+                    <p>Como banda principal esse ano teremos a tão condecorada 
+                        <span>MASSACRATION</span>criada em 2002 trazendo o seu HEEEEAVY METAL
+                        até o talo, ela tocará sábado para finalizar nosso evento.
+                    </p>
+                    <img src="images/Massacration.jpeg" alt="">
+                </div> <!--description--massacration-->
+            </div>
+        </section>
+
+        <section id="fesmumg" class="fesmumg">
+            <div class="container">
+                <h2>4º FESMUMG</h2>
+                <div class="container--fesmumg">
+                    <div class="description--fesmumg">
+                        <h3>FESMUMG - FESTIVAL DE MÚSICA DO MOTO GOLE</h3>
+                        <p>Nosso festival de música traz bandas maravilhosa
+                            para apresentar ao público, as bandas contam
+                            com musicas autorais trazendo oportunidades para as 
+                            bandas crescerem e a campeã recebe não só uma premiação como
+                            também uma oportunidade de gravar suas musicas em uma gravadora. E
+                            para abrir o nosso evento nada mais justo do que trazer novamente a banda
+                            vencedora do 3º FESMUMG.</p>
+                    </div> <!--description-fesmumg-->
+                    <img src="images/FESMUMG.png" alt="">
+                </div> <!--container-fesmumg-->
+            </div> <!--container-->
+
+            <div class="bandas--participantes">
+                <div class="container--bandas--participantes">
+                    <h2>BANDAS PARTICIPANTES NO 4º FESMUMG</h2>
+                    <div class="description--bandas">
+                        <div>
+                            <img src="images/blackWater.jpg" alt="Logo Black Water">
+                            <p>Black Water</p>
+                        </div>
+                        <div>
+                            <img src="images/parabolica.jpg" alt="Logo Parabolica">
+                            <p>Parabólica</p>
+                        </div>
+                        <div>
+                            <img src="images/soPaz.jpeg" alt="Logo So Paz">
+                            <p>Só Paz</p>
+                        </div>
+                        <div>
+                            <img src="images/novaGenesis.jpg" alt="Logo Nova Genesis">
+                            <p>Nova Genesis</p>
+                        </div>
+                        <div>
+                            <img src="images/nosTravamos.jpg" alt="Logo Nos Travamos">
+                            <p>Nos Travamos</p>
+                        </div>
+                        <div>
+                            <img src="images/criminalAction.jpeg" alt="Logo Criminal Action">
+                            <p>Criminal Action</p>
+                        </div>
+                        <div>
+                            <img src="images/CVZ.png" alt="Logo CVZ">
+                            <p>CVZ</p>
+                        </div>
+                        <div>
+                            <img src="images/zabilly.jpg" alt="Logo Zabilly">
+                            <p>Zabilly</p>
+                        </div>
+                        <div>
+                            <img src="images/pakidermes.png" alt="Logo Pakidermes">
+                            <p>Pakidermes</p>
+                        </div>
+                        <div>
+                            <img src="images/Rasterriv.jpeg" alt="Logo Rasterriv">
+                            <p>Rasterriv</p>
+                        </div>
+                        <div>
+                            <img class="buffalusJack" src="images/bufaloJack.jpg" alt="Logo Buffalu's Jack">
+                            <p>Buffalu's Jack</p>
+                        </div>
+                    </div> <!--description--bandas-->
+                </div> <!--container-->
+
+                <div class="jurados">
+                    <h2>JURADOS</h2>
+                    <div class="container-jurados">
+                        <div class="jur left">
+                            <img src="images/MarcelusDosSantos.png" alt="Foto Marcelus dos Santos">
+                            <p>Marcelus dos Santos</p>
+                        </div>
+                        <div class="jur right"> 
+                            <p>Diogo Carlos Ferrêira</p>
+                            <img src="images/DiogoCarlosFerreira.png" alt="Foto Diogo Carlos Ferrêira">
+                            
+                        </div>
+                        <div class="jur left"> 
+                            <img src="images/paulinha.jpg" alt="Foto Diogo Carlos Ferreira">
+                            <p>Paulinha Czar</p>
+                        </div>
+                        <div class="jur right">
+                            <p>Myke Vedovelli</p>
+                            <img src="images/Myke.jpg" alt="Foto Diogo Carlos Ferreira">
+                            
+                        </div>
+                        <div class="jur center"> 
+                            <img src="images/carlos.jpg" alt="Foto Diogo Carlos Ferreira">
+                            <p>Carlos Alexandre Planticow</p>
+                        </div>
+                    </div> <!--container--jurados-->
+                </div> <!--jurados-->
+            </div> <!--bandas-participantes-->
+
+            <div class="bandas-evento">
+                <h2>BANDAS PARTICIPANTES DO EVENTO</h2>
+                <div class="align">
+                    <div class="container">
+                        <img class="w300" src="images/Delorean.jpeg" alt="Logo Delorean">
+                        <p>Delorean</p>
+                    </div><!--container-->
+                    <div class="container">
+                        <img class="w300" src="images/Motor Black.jpg" alt="Logo Motor Black">
+                        <p>Motor Black</p>
+                    </div><!--container-->
+                    <div class="container">
+                        <img class="w300" src="images/Varanda78.jpeg" alt="Logo Varanda78">
+                        <p>Varanda 78</p>
+                    </div> <!--container-->
+                    <div class="container">
+                        <img class="w300" src="images/Duall Rockers.jpeg" alt="Logo Duall Rockers">
+                        <p>Duall Rockers</p>
+                    </div> <!--container-->
+                    <div class="container">
+                        <img class="w400" src="images/Ronaldo Dom.jpeg" alt="Logo Ronaldo Dom">
+                        <p>Ronaldo Dom</p>
+                    </div> <!--container-->
+                </div><!--align-->
+            </div> <!--bandas-evento-->
+
+        </section>
+
+        
+        </section>
+
+        <section id="cronograma" class="cronograma">
+            <h2>CRONOGRAMA</h2>
+            <div class="container">
+                    <div class="sexta">
+                        <h3>SEXTA-FEIRA</h3>
+                        <div class="hora-evento">
+                            <ul class="hora">
+                                <li>18:00</li>
+                                <li>19:00</li>
+                                <li>24:00</li>
+                            </ul>
+                            <ul class="event">
+                                <li>Abertura do Evento</li>
+                                <li>3º FESMUMG</li>
+                                <li>CWBUGRE</li>
+                            </ul>
+                        </div><!--event-hr-->
+        
+                    </div><!--sexta-->
+
+                    <div class="sabado">
+                        <h3>SABADO</h3>
+                        <div class="hora-evento">
+                            <ul class="hora">
+                                <li>07:30 ~ 09:30</li>
+                                <li>09:30 ~ 12:00</li>
+                                <li>12:00 ~ 14:00</li>
+                                <li>12:00 ~ 14:00</li>
+                                <li>14:00</li>
+                                <li>15:00</li>
+                                <li>16:30</li>
+                                <li>18:00</li>
+                                <li>20:00</li>
+                                <li>22:00</li>
+                                <li>24:00</li>
+                                <li>01:30</li>
+                                <li>03:00</li>
+                                <li>05:00</li>
+                            </ul>
+                            <ul class="event">
+                                <li>Café da Manhã 0800</li>
+                                <li>Gincanas</li>
+                                <li>Almoço 0800</li>
+                                <li>Ronaldo Dom com Voz e Violão</li>
+                                <li>Rapper</li>
+                                <li>Banda 3º lugar FESMUMG</li>
+                                <li>Banda 2º lugar FESMUMG</li>
+                                <li>(Não definido)</li>
+                                <li>Varanda 78</li>
+                                <li>Motor Black</li>
+                                <li>Massacration</li>
+                                <li>Delorean</li>
+                                <li>Banda 1º lugar FESMUMG</li>
+                                <li>Luau do Moto Gole</li>
+                            </ul>
+                        </div><!--event-hr-->
+                    </div><!--sabado-->
+
+                    <div class="domingo">
+                        <h3>DOMINGO</h3>
+                        <div class="hora-evento">
+                            <ul class="hora">
+                                <li>06:30</li>
+                                <li>11:00</li>
+                                <li>12:00</li>
+                                <li>13:30</li>
+                                <li>18:00</li>
+                            </ul>
+                            <ul class="event">
+                                <li>Café da Manha 0800</li>
+                                <li>Duall Rockers com Voz e Violão</li>
+                                <li>Almoço <span>(Costela, Porco, Maionese e Arroz)</span></li>
+                                <li>Dual Rockers</li>
+                                <li>Encerramento do Evento</li>
+                            </ul>
+                        </div><!--event-hr-->
+                    </div> <!--domingo-->
+
+            </div> <!--container-->
+        </section>
+
+        <section id="ingressos" class="ingressos">
+            <div class="container">
+                <h2>INGRESSOS</h2>
+                <p>Esse ano teremos tanto ingresso físico como ingresso online 
+                    os ingressos online seram vendidos diretamente através da 
+                    plataforma da <a target="_blank" href="https://www.cheersshop.com.br/evento/moto-gole-mc-16-anos-5168" >CHEERS.COM</a>
+                </p>
+                <h3>Valores</h3>
+                <div class="valores">
+                    <div class="antecipado">
+                        <p>INGRESSO FISICO</p>
+                        <span class="preco">R$ 50,00</span>
+                        <p class="limitado">(Unidades <span>LIMITADAS</span> primeiro LOTE)</p>
+                    </div><!--antecipado-->
+
+                    <div class="online">
+                        <p>ONLINE</p>
+                        <span class="preco">R$ 50,00</span>
+                        <p class="limitado">(Unidades <span>LIMITADAS</span> primeiro LOTE)</p>
+                    </div> <!--limitado-->
+
+                    <div class="pessoalmente">
+                        <p>PARA MOTO CLUB</p>
+                        <span class="preco">R$ 30,00</span>
+                        <p class="limitado">(Somente no dia do Evento)</p>
+                    </div> <!--pessoalmente-->
+                    
+                    
+
+                </div>
+            </div>
+        </section>
+        
+        <section id="contato" class="contato">
+            <div class="container-atracoes">
+                <h2>ATRAÇÕES</h2>
+                <div class="galeria">
+                    <img src="./images/localEvent/1.jpeg" alt="">
+                    <img src="./images/localEvent/2.jpeg" alt="">
+                    <img src="./images/localEvent/3.jpeg" alt="">
+                    <img src="./images/localEvent/4.jpeg" alt="">
+                    <img src="./images/localEvent/5.jpeg" alt="">
+                    <img src="./images/localEvent/6.jpeg" alt="">
+                    <img src="./images/localEvent/7.jpeg" alt="">
+                    <img src="./images/localEvent/8.jpeg" alt="">
+                    <img src="./images/localEvent/9.jpeg" alt="">
+                    <img src="./images/localEvent/10.jpeg" alt="">
+                    <img src="./images/localEvent/11.jpeg" alt="">
+                    <img src="./images/localEvent/12.jpeg" alt="">
+                    <img src="./images/localEvent/13.jpeg" alt="">
+                    <img src="./images/localEvent/14.jpeg" alt="">
+                    <img src="./images/localEvent/15.jpeg" alt="">
+                    <img src="./images/localEvent/16.jpeg" alt="">
+                    <img src="./images/localEvent/17.jpeg" alt="">
+                    <img src="./images/localEvent/18.jpeg" alt="">
+                    <img src="./images/localEvent/19.jpeg" alt="">
+                    <img src="./images/localEvent/20.jpeg" alt="">
+                    <img src="./images/localEvent/21.jpeg" alt="">
+                    <img src="./images/localEvent/22.jpeg" alt="">
+                    <img src="./images/localEvent/23.jpeg" alt="">
+                    <img src="./images/localEvent/24.jpeg" alt="">
+                </div> <!--galeria-->
+
+                <div class="descricao--atracao">
+                    <p>Estacionamento</p>
+                    <p>Área de Camping</p>
+                    <p>Banheiros</p>
+                    <p>Chuveiros</p>
+                    <p>Praça de Alimentação</p>
+                    <p>Barracas de Lanches</p>
+                </div> <!--descricao--atracao-->
+            </div> <!--container-atracoes-->
+
+
+
+            <div class="container">
+                <h2>CONTATO - LOCAL DA FESTA</h2>
+                <div class="form">
+                    <div class="contato-whatts">
+                        <div class="dico">
+                            <a target="_blank" href="https://tinyurl.com/48tpb6yc"><ion-icon name="logo-whatsapp"></ion-icon></a>
+                            <a target="_blank" href="https://tinyurl.com/48tpb6yc">DICO</a>
+                        </div><!--dico-->
+
+                        <div class="feliz">
+                            <a target="_blank" href="https://tinyurl.com/5n7w65r8"><ion-icon name="logo-whatsapp"></ion-icon></a>
+                            <a target="_blank" href="https://tinyurl.com/5n7w65r8">FELIZ</a>
+                        </div> <!--feliz-->
+
+                    </div> <!--contato-whatts-->
+
+                    <div id="mapa" class="google--maps">
+                    </div> <!--mapa-->
+                </div> <!--form-->
+            </div> <!--container-->
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <span>Moto Gole - MC</span>
+            <span>R. Rio Cubatão, 1457 - Pinhais-PR</span>
+            <span class="inmemoriam">In Memoriam: Tady - Tuia</span>
+        </div>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/less" ></script>
+    <script src="script.js"></script>
+</body>
+</html>

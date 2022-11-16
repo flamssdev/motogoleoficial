@@ -1,0 +1,58 @@
+body {
+    footer {
+        width: 100%;
+        height: 80px;
+        background-color: black;
+        .container {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            padding: 10px 2%;
+            span {
+                color: white;
+                display: block;
+            }
+
+            .inmemoriam {
+                position: absolute;
+                bottom: 20px;
+                right: 20px;
+            }
+        }
+    }
+}
+
+@media (max-width: 840px) {
+    body {
+        footer {
+            margin-bottom: 59px;
+            height: 125px;
+            .container {
+                text-align: center;
+                position: inherit;
+                .inmemoriam {
+                    position: inherit;
+                    bottom: auto;
+                    right: auto;
+                    padding-top: 15px;
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 840px) {
+    body {
+        footer {
+            .container {
+                text-align: center;
+                position: inherit;
+                span {
+                    font-size: 13px;
+                }
+                
+            }
+        }
+    }
+}

@@ -1,0 +1,88 @@
+body {
+    main {
+        section.cronograma {
+            width: 100%;
+            margin: -1px 0 0 0;
+            text-align: center;
+            padding: 80px 2% 100px;
+            background: linear-gradient(180deg, #58151C 0%, rgba(22, 7, 28, 1) 46.35%, #16071C 100%);
+            h2 {
+                font-size: 50px;
+                padding: 50px 0;
+                color: white;
+            }
+            .container {
+                max-width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 100px;
+                flex-wrap: wrap;
+                
+                .sexta, .sabado, .domingo{
+                    min-width: 449px;
+                    background-color: black;
+                    padding: 2%;
+                    border-radius: 25px;
+                    margin-bottom: 50px;
+                    h3 {
+                        color: white;
+                        font-size: 40px;
+                        padding-bottom: 20px;
+                    }
+                    .hora-evento {
+                        display: flex;
+                        justify-content: center;
+                        .hora {
+                            width: 30%;
+                            padding-right: 30px;
+                            li{
+                                list-style-type: none;
+                                color: white;
+                                font-size: 25px;
+                                letter-spacing: 2px;
+                                border-top: 1px solid white;
+                                height: 100px;
+                                vertical-align: middle;                                
+                            }
+                        }
+    
+                        .event {
+                            width: 70%;
+                            li{
+                                list-style-type: none;
+                                color: white;
+                                font-size: 25px;
+                                letter-spacing: 1px;
+                                border-top: 1px solid white;
+                                height: 100px;
+                                span{
+                                    font-size: 16px;                                
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 480px){
+    body {
+        main {
+            section.cronograma {
+                h2 {
+                    font-size: 34px;  
+                }
+                .container {
+                    .sexta, .sabado, .domingo {
+                        width: 100%;
+                        min-width: auto;
+                    }
+                }
+            }
+        }
+    }
+}

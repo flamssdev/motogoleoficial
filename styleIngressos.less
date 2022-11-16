@@ -1,0 +1,118 @@
+body {
+    main {
+        section.ingressos {
+            width: 100%;
+            margin: -1px 0 0 0;
+            text-align: center;
+            padding: 80px 2% 50px;
+            background: linear-gradient(180deg, #16071C 0%, rgba(86, 20, 53, 1) 35.42%, #561435 100%);            .container {
+            width: 100%;
+            max-width: 1280px;
+            margin: 0 auto;
+                h2 {
+                    font-size: 50px;
+                    color: white;
+                    padding: 50px 0;
+                }
+                p {
+                    max-width: 1000px;
+                    margin: 0 auto;
+                    color: white;
+                    z-index: 4;
+                    font-size: 30px;
+
+                    a {
+                        z-index: 3;
+                        padding: 0 10px;
+                        background-color: #56151d;
+                        color: white;
+                        border: 1px solid white;
+                        border-radius: 25px;
+                        box-shadow: 2px 5px 20px 5px rgba(0,0,0,1);
+                        text-decoration: none;
+                        cursor: pointer;
+
+                        &:hover {
+                            transition: 0.5s;
+                            padding: 5px 15px;
+                            
+                        }
+                    }
+                }
+                h3 {
+                    margin: 40px 0;
+                    font-size: 34px;
+                    color: white;
+                }
+
+                .valores {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    
+                    .antecipado, .online, .pessoalmente {
+                        width: 320px;
+                        p {
+                            font-size: 24px;
+                            padding: 20px 10px;
+                            line-height: 25px;
+                            color: #6EDFF6;
+
+                            span {
+                                color: red;
+                                font-size: 20px;
+                            }
+                        }
+
+                        .limitado {
+                            color: white;
+                            font-size: 16px;
+                            letter-spacing: 2px;
+                        }
+                        .preco {
+                            font-size: 20px;
+                            border-bottom: 3px solid black;
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 937px) {
+    body {
+        main {
+            section.ingressos {
+                .container {
+                    .valores {
+                         .pessoalmente {
+                            padding-top: 30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 624px) {
+    body {
+        main {
+            section.ingressos {
+                
+                .container {
+                    h2 {
+                        font-size: 40px;
+                    }
+                    .valores {
+                         .online {
+                            padding-top: 30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
